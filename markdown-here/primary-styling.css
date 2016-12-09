@@ -66,7 +66,16 @@ Note that we only use a top margin and not a bottom margin -- this prevents the
 p {
   /* !important is needed here because Hotmail/Outlook.com uses !important to
      kill the margin in <p>. We need this to win. */
-  margin: 0 0 1.2em 0 !important;
+  margin: 15px 1em;
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  text-align: justify;
+  clear: both;
+  min-height: 1em;
+  white-space: pre-wrap;
+
 }
 
 table, pre, dl, blockquote, q, ul, ol {
